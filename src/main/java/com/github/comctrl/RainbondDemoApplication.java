@@ -21,6 +21,11 @@ public class RainbondDemoApplication {
         SpringApplication.run(RainbondDemoApplication.class, args);
     }
 
+    @GetMapping("hi")
+    public String hi(){
+        return "hi";
+    }
+
     @GetMapping("hello")
     public String hello(){
         return "hello " + username;
