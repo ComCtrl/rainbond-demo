@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: rainbond-demo-config
+  cloud:
+    nacos:
+      config:
+        server-addr: localhost
+        file-extension: yaml
