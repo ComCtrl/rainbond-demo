@@ -23,7 +23,7 @@ public class RainbondDemoApplication {
 
     @GetMapping("hi")
     public String hi(){
-        return "hi ";
+        return "hi";
     }
 
     @GetMapping("hello")
