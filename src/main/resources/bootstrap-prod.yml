@@ -1,6 +1,6 @@
 spring:
   application:
-    name: rainbond-demo-config
+    name: rainbond-demo-config2
   cloud:
     nacos:
       config:
