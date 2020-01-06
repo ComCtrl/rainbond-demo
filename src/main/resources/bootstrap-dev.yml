@@ -1,8 +1,0 @@
-spring:
-  application:
-    name: rainbond-demo-config
-  cloud:
-    nacos:
-      config:
-        server-addr: http://8848.gr97e7c4.thal390r.fc60ca.grapps.cn
-        file-extension: yaml

@@ -14,8 +14,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RefreshScope
 public class RainbondDemoApplication {
 
-    @Value("${user.name}")
-    private String username;
+    //@Value("${user.name}")
+    private String username = "abc";
 
     public static void main(String[] args) {
         SpringApplication.run(RainbondDemoApplication.class, args);
