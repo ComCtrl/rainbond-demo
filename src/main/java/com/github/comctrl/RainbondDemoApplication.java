@@ -25,7 +25,7 @@ public class RainbondDemoApplication {
 
     @GetMapping("hi")
     public String hi(HttpServletRequest request){
-        return "hi " + request.getLocalAddr();
+        return "你好 " + request.getLocalAddr();
     }
 
     @GetMapping("hello")
